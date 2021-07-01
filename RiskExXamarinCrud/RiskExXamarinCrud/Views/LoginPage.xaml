@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RiskExXamarinCrud.Views.LoginPage"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <Label Text="Bem vind@" FontSize="Title"/>
+            <Label Text="Tudo sobre carros antigos" FontSize="Medium" />
+            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." FontSize="Small" Padding="0,0,0,0"/>
+
+            <Label Text="Username" FontSize="Medium" />
+            <Entry x:Name="Username" FontSize="Medium" />
+            <Label Text="Password" FontSize="Medium" />
+            <Entry x:Name="Password" IsPassword="True" FontSize="Medium" />
+            <Button VerticalOptions="Center" Text="Entrar" Clicked="LoginClicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
